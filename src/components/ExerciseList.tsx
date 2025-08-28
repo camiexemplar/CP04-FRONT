@@ -24,7 +24,7 @@ export function ExerciseList() {
   ];
 
   return (
-    <div style={{ border: '1px solid #eee', padding: '0 16px', borderRadius: 8, marginTop: 24 }}>
+    <div style={{ border: '1px solid #eee', padding: '0 16px', borderRadius: 8, marginTop: 24, textAlign:"center" }}>
       <h2>Exercícios do Dia</h2>
       <ul>
         {exercises.map(exercise => (
